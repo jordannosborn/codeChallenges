@@ -2,7 +2,7 @@
 # Create a function called sum_integers that accepts two integers and returns their sum.
 
 def sum_integers(x, y):
-  return 0
+  return x + y
 
 # Tests -- don't delete anything below this line!
 assert sum_integers(10, 1) == 11
