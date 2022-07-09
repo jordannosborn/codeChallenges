@@ -3,7 +3,7 @@
 # Hint: Consider the modulo operator.
 
 def divisible_by_ten(x):
-  return x
+  return True if x % 10 == 0 else False
 
 # Tests -- don't delete anything below this line!
 assert divisible_by_ten(200) == True
