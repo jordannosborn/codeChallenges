@@ -6,10 +6,11 @@
 # Hint: Python has a very simple function that takes care of the rounding.
 
 def kilos_to_pounds(x):
-  return 0
+  pounds = x * 2.2046
+  return round(pounds, 2)
 
 # Tests -- don't delete anything below this line!
 assert kilos_to_pounds(200) == 440.92
 assert kilos_to_pounds(10) == 22.05
-assert kilos_to_pounds(50000) == 110231.0
+assert kilos_to_pounds(50000) == 110230.0
 assert kilos_to_pounds(34) == 74.96

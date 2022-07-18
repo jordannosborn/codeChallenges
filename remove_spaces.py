@@ -3,9 +3,8 @@
 # Hint: Consider replacing a space (" ") with nothing ("").
 
 def remove_spaces(the_string):
-  the_string = ""
-
-  return the_string
+  x = the_string.replace(" ", "")
+  return x
 
 
 # Tests:

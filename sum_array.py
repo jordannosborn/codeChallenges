@@ -2,7 +2,11 @@
 # Create a function called sum_array that sums all the values of an array of integers.
 
 def sum_array(the_array):
-  return 0;
+  sum = 0
+  for i in the_array:
+    sum = sum + i
+  return sum
+
 
 # Tests -- don't delete anything below this line!
 assert sum_array([1, 1]) == 2

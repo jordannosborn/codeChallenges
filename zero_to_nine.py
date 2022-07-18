@@ -4,7 +4,9 @@
 # Hint: You might need to convert the integer to a string.
 
 def zero_to_nine():
-  the_numbers = ""
+  the_numbers = range(10)
+  for n in the_numbers:
+    print(n)
 
   return the_numbers
 
