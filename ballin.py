@@ -3,7 +3,9 @@
 # Hint: 1 US dollar is 1.47 Australian dollars.
 
 def ballin(us_dollars):
-  return 0
+  dollars100 = us_dollars * 100
+  dollars = dollars100 * 1.47
+  return dollars
 
 
 # Tests:
