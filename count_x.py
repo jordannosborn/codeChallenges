@@ -4,7 +4,8 @@
 # Hint: Use a separate varable to keep track of the number of occurances of "x".
 
 def count_x(the_string):
-  return 0
+  x = the_string.count('x')
+  return x
 
 # Tests -- don't delete anything below this line!
 assert count_x("xyz") == 1

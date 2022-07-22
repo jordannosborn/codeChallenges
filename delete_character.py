@@ -3,7 +3,8 @@
 # Hint: This is very similar to remove_spaces.py, except it's not a space being removed -- it's some other character the user chooses.
 
 def delete_character(the_string, the_character):
-  return ""
+  x = the_string.replace(the_character, "")
+  return x
 
 
 # Tests:
