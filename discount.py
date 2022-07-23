@@ -10,10 +10,11 @@ def discount(price, discount):
   total = price - discount
   if discount < price:
     return total
-  elif discount > price:
+  elif discount >= price:
     return price
 
 # Tests:
 assert discount(100, 20) == 80
 assert discount(200, 10) == 190
 assert discount(100, 150) == 100
+assert discount(100, 100) == 100

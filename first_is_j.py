@@ -2,7 +2,11 @@
 # Create a function called first_is_j that returns True if the first character of a string is either lower case "j" or upper case "J".
 
 def first_is_j(the_string):
-  return False
+  charsToMatch = ('j', 'J')
+  if the_string.startswith(charsToMatch):
+    return True
+  else:
+    return False
 
 # Tests -- don't delete anything below this line!
 assert first_is_j("Jude") == True
