@@ -7,7 +7,11 @@
 # However, if the discount is higher than the price, simply return the original price. So if the price is 100 and the discount is 150 the function should return 100.
 
 def discount(price, discount):
-  return 0
+  total = price - discount
+  if discount < price:
+    return total
+  elif discount > price:
+    return price
 
 # Tests:
 assert discount(100, 20) == 80
