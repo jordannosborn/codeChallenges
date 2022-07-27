@@ -5,7 +5,8 @@
 
 
 def jeepers_score(the_string):
-  return 0
+  count = the_string.lower().count('jeepers')
+  return count
 
 
 # Tests:
