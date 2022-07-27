@@ -6,7 +6,12 @@
 
 
 def rich_or_poor(my_money, minimum):
-  return ""
+  if my_money < minimum:
+    return "You're poor!"
+  elif my_money >= minimum and my_money <= 2*minimum:
+    return "You're rich!"
+  elif my_money > 2*minimum:
+    return "You're ballin!!!"
 
 
 # Tests:
