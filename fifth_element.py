@@ -6,8 +6,11 @@
 
 
 def fifth_element(the_array):
-  return ""
-
+  if len(the_array) >= 5:
+    fifth = the_array[4]
+    return fifth
+  else:
+    return ""
 
 # Tests:
 assert fifth_element(["a", "b", "c", "d", "e"]) == "e"
