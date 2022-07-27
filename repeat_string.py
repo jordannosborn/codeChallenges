@@ -4,7 +4,8 @@
 
 
 def repeat_string(the_character, repeat_number):
-  return ""
+  string = the_character*repeat_number
+  return string
 
 
 # Tests:
