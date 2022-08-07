@@ -9,7 +9,8 @@
 # Hint: There are 365 days in a year.
 
 def years_to_days(years):
-  return 0
+  days = years*365
+  return days
 
 
 def name_and_years(name, years):
