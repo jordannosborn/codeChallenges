@@ -15,4 +15,4 @@ def sum_arrays(first_array, second_array):
 
 # Tests:
 assert sum_arrays([1, 1], [1, 1]) == 4
-
+assert sum_arrays([1, 1], [2, 2]) == 6
