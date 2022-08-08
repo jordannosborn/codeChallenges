@@ -3,8 +3,15 @@
 # Hint: Refer to previous challenge, sum_array.
 
 def sum_arrays(first_array, second_array):
-  return 0
+  sum = 0
+  for i in first_array:
+    sum = sum + i
 
+  sum1 = 0
+  for i in first_array:
+    sum1 = sum1 + i
+
+  return sum + sum1
 
 # Tests:
 assert sum_arrays([1, 1], [1, 1]) == 4

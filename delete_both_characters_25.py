@@ -4,8 +4,9 @@
 # HINT: Refer to the previous challenge called "delete_character".
 
 
-def delete_both_characters(the_string, fist_character, second_character):
-  return ""
+def delete_both_characters(the_string, first_character, second_character):
+  x = the_string.replace(first_character, "").replace(second_character, "")
+  return x
 
 
 # Tests:
