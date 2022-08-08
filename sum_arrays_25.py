@@ -8,7 +8,7 @@ def sum_arrays(first_array, second_array):
     sum = sum + i
 
   sum1 = 0
-  for i in first_array:
+  for i in second_array:
     sum1 = sum1 + i
 
   return sum + sum1
