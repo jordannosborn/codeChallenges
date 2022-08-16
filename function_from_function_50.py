@@ -12,9 +12,10 @@ def years_to_days(years):
   days = years*365
   return days
 
-
 def name_and_years(name, years):
-  return ""
+  names_and_years = name + " has lived " + str(years_to_days(years)) + " days."
+  return names_and_years
+
 
 
 # Tests:
