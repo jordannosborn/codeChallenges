@@ -7,7 +7,14 @@
 # Hint: Don't forget that arrays are "zero" indexed, which means they start with 0, not 1.
 
 def third_element_is_kitty(the_array):
-  return False
+    if len(the_array) >= 3:
+        the_array_lower = the_array[2].lower()
+        if the_array_lower == "kitty":
+            return True
+        else:
+            return False
+    else:
+        return False
 
 # Tests:
 assert third_element_is_kitty(["Charles", "Pickles", "Kitty"]) == True
