@@ -4,7 +4,12 @@
 
 
 def add_or_subtract(first_int, second_int, operator):
-  return 0
+  if operator == "+":
+    sum = first_int + second_int
+    return sum
+  elif operator == "-":
+    minus = first_int - second_int
+    return minus
 
 
 # Tests:
