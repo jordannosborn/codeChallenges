@@ -4,7 +4,8 @@
 # Hint: Consider converting the string to lower case every time so you never have to deal with "X"
 
 def count_x(the_string):
-  return 0
+  x = the_string.upper().count("x".upper())
+  return x
 
 # Tests -- don't delete anything below this line!
 assert count_x("xyz") == 1

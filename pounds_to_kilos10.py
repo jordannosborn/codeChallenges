@@ -6,7 +6,8 @@
 # Hint: Similar to kilos_to_pounds.py
 
 def pounds_to_kilos(x):
-  return 0
+  kilos = x * 0.453592
+  return round(kilos, 2)
 
 # Tests -- don't delete anything below this line!
 assert pounds_to_kilos(1) == 0.45
