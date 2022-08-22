@@ -1,8 +1,7 @@
-# Challenge: Has Kevin
-# Create a function called has_kevin that returns True if a string has the substring "Kevin" in it and False if it doesn't.
-# Hint: A substring is part of a string. For example, "BCD" is a substring of "ABCDEFG" and "Kevin" is a substring of "Kevin Sean Osborn"
+# Challenge: Has string
+# Create a function called has_string that returns True if a string has a substring.
 
-def has_kevin(the_string):
+def has_kevin(the_string, substring):
   substring = "Kevin"
   if substring in the_string:
     return True
