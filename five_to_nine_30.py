@@ -5,9 +5,10 @@
 # Hint: You might need to convert the integer to a string.
 
 def five_to_nine():
+  output = ""
   for x in range(5, 10):
-    string = (str(range))
-    return string
+    output = output + str(x)
+  return output
 
 # Tests:
 assert five_to_nine() == "56789"
