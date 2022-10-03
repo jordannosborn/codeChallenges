@@ -3,8 +3,8 @@
 
 def first_is_j(the_string):
   charsToMatch = ('j', 'J')
-  the_string.startswith(charsToMatch)
-  return True
+  return the_string.startswith(charsToMatch)
+
 
 # Tests -- don't delete anything below this line!
 assert first_is_j("Jude") == True

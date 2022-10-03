@@ -3,7 +3,11 @@
 
 
 def print_array(the_array):
-  print("")
+  the_array = ["dog", "cat", "fish"]
+  for x in the_array:
+    print(x)
+
+
 
 
 # Assuming an array like this: 

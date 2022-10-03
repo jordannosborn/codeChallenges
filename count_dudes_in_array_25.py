@@ -4,7 +4,8 @@
 # Hint: You probably need a variable to keep track of the number of "dude" items.
 
 def count_dudes_in_array(the_array):
-  return 0
+  dude_occournces = the_array.count("dude")
+  return dude_occournces
 
 
 # Tests:

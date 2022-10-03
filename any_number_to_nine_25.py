@@ -4,7 +4,12 @@
 # Hint: Very similar to zero_to_nine, except the first number could be any number from 0-9.
 
 def any_number_to_nine(num):
-  return "0"
+  if num > 9:
+    return "0"
+  the_string = ""
+  for n in range(num, 10):
+    the_string = the_string + str(n)
+  return the_string
 
 
 # Tests:

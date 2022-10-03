@@ -5,7 +5,10 @@
 
 
 def osborn_family_array(oldest_to_youngest):
-  return []
+  if oldest_to_youngest is True:
+    return ["Jude", "Amie", "Kevin", "Jordann", "Kitty"]
+  else:
+    return ["Kitty", "Jordann", "Kevin", "Amie", "Jude"]
 
 
 # Tests:

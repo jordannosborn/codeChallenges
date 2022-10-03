@@ -3,7 +3,9 @@
 
 
 def print_one_to_ten():
-  print(0)
+  for x in range(1, 11):
+    print(x)
+
 
 
 # You'll need to be sure the output should look exactly like this:
