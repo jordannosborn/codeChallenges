@@ -3,18 +3,18 @@
 # parameter, reverses the array and then prints each element one at a time.
 
 
-def print_array_except_jude(the_array):
+def reverse_and_print_array(the_array):
   print('')
 
 
 # Assuming an array like this:
-#
+
 # ["what", "the", "fuck"]
-#
+
 # The function should print this:
-#
+
 # fuck
 # the
 # what
 
-print_array_except_jude(["what", "the", "fuck"])
+reverse_and_print_array(["what", "the", "fuck"])

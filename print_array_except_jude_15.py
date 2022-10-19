@@ -8,9 +8,12 @@ def print_array_except_jude(the_array):
 
 
 # Assuming an array like this:
+
 # ["Jordann", "Jude", "Kevin"]
+
 # The function should print this:
+
 # Jordann
 # Kevin
 
-print_array(["Jordann", "Jude", "Kevin"])
+print_array_except_jude(["Jordann", "Jude", "Kevin"])
