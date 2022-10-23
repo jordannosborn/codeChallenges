@@ -4,7 +4,10 @@
 
 
 def mash_array_of_strings(the_array):
-  return ""
+  output = ""
+  for x in the_array:
+    output += x
+  return output
 
 
 assert mash_array_of_strings(["Leela", "Fry", "Farnsworth"]) == "LeelaFryFarnsworth"
