@@ -1,5 +1,5 @@
 # Challenge: Print array except "Jude" or "Kevin"
-# Create a function called print_array_except_jude that prints each element of 
+# Create a function called print_girls that prints each element of 
 # an array, unless that element is either "Jude" or "Kevin", in which case 
 # nothing is printed.
 
@@ -17,4 +17,4 @@ def print_array_except_jude_or_kevin(the_array):
 # Amie
 # Jordann
 
-print_array_except_jude(["Amie", "Jordann", "Jude", "Kevin"])
+print_array_except_jude_or_kevin(["Amie", "Jude", "Jordann", "Kevin"])
