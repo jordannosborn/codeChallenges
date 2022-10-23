@@ -7,8 +7,6 @@ def length_strings(string1, string2):
   return length_string1 + length_string2
 
 
-
-
 # Tests:
 assert length_strings("cat", "dog") == 6
 assert length_strings("abcdefghijklmnopqrstuvwxy", "z") == 26
