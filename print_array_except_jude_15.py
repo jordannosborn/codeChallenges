@@ -4,7 +4,10 @@
 
 
 def print_array_except_jude(the_array):
-  print("")
+  for x in the_array: 
+    if x != "Jude":
+      print(x)
+    
 
 
 # Assuming an array like this:
