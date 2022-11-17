@@ -4,7 +4,11 @@
 
 
 def print_odd_even(the_array):
-  print ""
+  for x in the_array:
+    if x % 2 == 0:
+      print("even")
+    else:
+      print("odd")
     
 
 # Assuming an array like this:
