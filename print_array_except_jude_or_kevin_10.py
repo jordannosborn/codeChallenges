@@ -5,7 +5,10 @@
 
 
 def print_array_except_jude_or_kevin(the_array):
-  print("")
+  for x in the_array:
+    if x != "Jude" and x != "Kevin":
+      print(x)
+
     
 
 # Assuming an array like this:
