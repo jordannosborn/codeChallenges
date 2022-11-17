@@ -7,7 +7,8 @@
 
 
 def print_one_to_num_times_two(num):
-  print(0)
+  for x in range(1, (num * 2) + 1):
+    print(x)
 
 
 # If num is 3, the output should look exactly like this:
