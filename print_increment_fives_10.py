@@ -4,7 +4,11 @@
 
 
 def print_increment_fives(the_array):
-  print("")
+  for x in the_array:
+    if x == 5:
+      print(x + 1)
+    else:
+      print(x)
     
 
 # Assuming an array like this:
