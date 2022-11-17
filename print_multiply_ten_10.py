@@ -4,7 +4,8 @@
 
 
 def print_increment_fives(the_array):
-  print('')
+  for x in the_array:
+    print(x * 10)
     
 
 # Assuming an array like this:
