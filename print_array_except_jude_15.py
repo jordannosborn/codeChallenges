@@ -4,7 +4,11 @@
 
 
 def print_array_except_jude(the_array):
-  print("")
+  for x in the_array:
+    if x != "Jude":
+      print(x)
+
+
 
 
 # Assuming an array like this:
@@ -13,4 +17,5 @@ def print_array_except_jude(the_array):
 # Jordann
 # Kevin
 
-print_array(["Jordann", "Jude", "Kevin"])
+print_array_except_jude(["Jordann", "Jude", "Kevin"])
+
