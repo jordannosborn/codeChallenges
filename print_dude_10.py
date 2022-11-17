@@ -4,7 +4,9 @@
 
 
 def print_dude(the_array):
-  print('')
+  for x in the_array:
+    if x == "dude":
+      print(x)
     
 
 # Assuming an array like this:
