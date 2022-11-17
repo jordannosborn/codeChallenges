@@ -5,8 +5,9 @@
 
 
 def sentence_from_array(the_array):
-  return ""
+  sentence = ' '.join(the_array)
+  return(sentence)
 
 
-assert sentence_from_array(["What", "the", "fuck"]) == "What the fuck "
-assert sentence_from_array(["Hubert", "Farnsworth"]) == "Hubert Farnsworth "
+assert sentence_from_array(["What", "the", "fuck"]) == "What the fuck"
+assert sentence_from_array(["Hubert", "Farnsworth"]) == "Hubert Farnsworth"
