@@ -1,6 +1,6 @@
 # Challenge: Reverse a string
 # Create a function called reverse_string that returns a string that has been
-# reversed. So the string "jordann" should return "nnadroj".
+# reversed. So the string "jordann" should be return as "nnadroj".
 
 
 def reverse_string(the_string):
