@@ -1,4 +1,4 @@
-# Challenge: Print dictionary
+# Challenge: Print name
 # Create a function called print_name that prints only the "name" item of a
 # dictionary.
 
@@ -7,7 +7,7 @@
 
 
 def print_name(the_dictionary):
-  print(the_dictionary['name'])
+  print('')
 
     
 # Assuming a dictionary like this:
