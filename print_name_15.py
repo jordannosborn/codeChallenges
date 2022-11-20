@@ -6,7 +6,7 @@
 # individual value: https://www.w3schools.com/python/python_dictionaries.asp
 
 
-def print_even(the_dictionary):
+def print_name(the_dictionary):
   print(the_dictionary['name'])
 
     
@@ -21,7 +21,7 @@ def print_even(the_dictionary):
 
 # Kitty
 
-print_even({
+print_name({
   'name': 'Kitty',
   'age': 8,
   'sound': 'meow'
