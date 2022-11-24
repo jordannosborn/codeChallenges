@@ -4,7 +4,7 @@
 
 
 def reverse_string(the_string):
-  return ''
+  return the_string[::-1]
 
 
 assert reverse_string('jordann') == 'nnadroj'

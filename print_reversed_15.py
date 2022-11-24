@@ -4,7 +4,8 @@
 
 
 def print_reversed(the_array):
-  print('')
+  for x in the_array:
+    print(x[::-1])
     
 
 # Assuming an array like this:

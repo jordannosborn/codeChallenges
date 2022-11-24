@@ -7,7 +7,7 @@
 
 
 def print_name(the_dictionary):
-  print('')
+  print(the_dictionary['name'])
 
     
 # Assuming a dictionary like this:

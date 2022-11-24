@@ -5,7 +5,11 @@
 
 
 def print_increment_odd_even(the_array):
-  print(0)
+  for x in the_array:
+    if x % 2 == 0:
+      print(x + 1)
+    else:
+      print(x + 2)
     
 
 # Assuming an array like this:

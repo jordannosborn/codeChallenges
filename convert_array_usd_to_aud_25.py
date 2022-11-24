@@ -6,7 +6,8 @@
 
 def convert_array_usd_to_aud(the_array):
   output = []
-
+  for x in the_array:
+    output.append(x * 1.50)
   return output
     
 

@@ -4,7 +4,10 @@
 
 
 def print_even(the_array):
-  print('')
+  for x in the_array:
+    if x % 2 == 0:
+      print(x)
+
 
     
 
