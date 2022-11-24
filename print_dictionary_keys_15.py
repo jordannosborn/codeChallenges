@@ -1,6 +1,6 @@
 # Challenge: Print dictionary keys
 # Create a function called print_dictionary_keys that prints only the keys of
-# a dictionary.
+# a dictionary, one at a time.
 #
 # Hint: Note that we are using Python 3. If you find an example for Python 2,
 # it may not work.
