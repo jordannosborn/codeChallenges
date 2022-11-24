@@ -1,5 +1,5 @@
 # Challenge: print old by calling a function
-# This challenges is about calling a function inside a function.
+# This challenge is about calling a function inside a function.
 # It requires two functions:
 # 1. make_old(age), which multiplies an age by 10. You'll need to create this
 # function yourself.
@@ -11,8 +11,10 @@ def print_old(age):
   print(0)
 
 
-# First, let's make sure you've made a function called make_old, and are
-# multiplying the age by 10.
+# Tests:
+
+# First, let's make sure you've made a function called make_old that multiplies
+# a given age by 10.
 assert(make_old(10) == 100)
 assert(make_old(2) == 20)
 
