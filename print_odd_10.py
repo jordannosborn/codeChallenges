@@ -4,7 +4,10 @@
 
 
 def print_odd(the_array):
-  print(0)
+  for x in the_array:
+    if x % 2 != 0:
+      print(x)
+
 
 
 # Assuming an array like this:

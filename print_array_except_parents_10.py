@@ -5,7 +5,10 @@
 
 
 def print_array_except_parents(the_array):
-  print('')
+  for x in the_array:
+    if x == "Jordann" or x == "Kevin":
+      print(x)
+
 
 
 # Assuming an array like this:
