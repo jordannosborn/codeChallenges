@@ -6,9 +6,8 @@
 # the other is the number to multiply by.
 
 
-def print_array_with_multiplier(the_array, mulitply_by):
-  for x in the_array:
-    print(x * mulitply_by)
+def print_array_with_multiplier(the_array, mult):
+  print(0)
     
 
 # Assuming an array like this:
