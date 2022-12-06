@@ -5,10 +5,14 @@
 # function yourself.
 # 2. print_old(age), which calls make_old, passing an age to it, then printing 
 # that age.
+def make_old(age):
+  old_age = age * 10
+  return old_age
 
 
 def print_old(age):
-  print(0)
+  new_age = make_old(age)
+  print(new_age)
 
 
 # Tests:

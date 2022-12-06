@@ -4,7 +4,8 @@
 
 
 def print_string_lengths(the_array):
-  print('')
+  for x in the_array:
+    print(len(x))
 
 
 
