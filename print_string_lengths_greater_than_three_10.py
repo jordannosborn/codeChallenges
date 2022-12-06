@@ -4,7 +4,10 @@
 
 
 def print_string_lengths_greater_than_three(the_array):
-  print(0)
+  for x in the_array:
+    if len(x) > 3:
+      print(len(x))
+
 
 
 # Assuming an array like this:

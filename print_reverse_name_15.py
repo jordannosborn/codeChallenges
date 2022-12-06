@@ -9,8 +9,12 @@
 # 2. print_name(name), which calls reverse_string, passing the name to it and
 # prints the string reversed.
 
+def reverse_string(the_string):
+  return the_string[::-1]
+
+
 def print_name(name):
-  print('')
+  return reverse_string(name)
 
 
 # Tests:

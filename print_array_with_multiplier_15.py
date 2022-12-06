@@ -7,7 +7,8 @@
 
 
 def print_array_with_multiplier(the_array, mult):
-  print(0)
+  for x in the_array:
+    print(x * mult)
     
 
 # Assuming an array like this:

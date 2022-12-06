@@ -7,8 +7,9 @@
 
 
 def print_dictionary_keys_and_values(the_dictionary):
-  print('')
-  print('')
+  for key, value in the_dictionary.items():
+    print(key)
+    print(value)
 
 
 # Tests:

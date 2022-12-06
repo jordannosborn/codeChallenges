@@ -4,7 +4,10 @@
 
 
 def print_all_but_kale(the_array):
-  print('')
+  for x in the_array:
+    if x != 'kale':
+      print(x)
+
     
 
 # Assuming an array like this:

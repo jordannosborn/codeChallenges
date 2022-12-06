@@ -5,7 +5,9 @@
 
 
 def print_dictionary_keys_unless_weight(the_dictionary):
-  print('')
+  for key, value in the_dictionary.items():
+    if key != "weight":
+      print (key)
 
 
 
