@@ -3,7 +3,8 @@
 # and their calories, and returns the total calories.
 
 def calorie_counter(foods):
-  return 0
+  total = sum(foods.values())
+  return total
 
 
 # Tests:
