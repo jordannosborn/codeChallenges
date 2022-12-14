@@ -3,7 +3,7 @@
 # challenge filenames, extracts the allowance reward and adds them all together
 # to return the total.
 #
-# Hint: Consider split()
+# Hint: Consider split() as a way to extract the price from the filename.
 
 def total_challenge_allowance(challenges):
   return 0
