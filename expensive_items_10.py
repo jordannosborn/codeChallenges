@@ -1,7 +1,8 @@
 # Challenge: Expensive items
 # Create a function called expensive_items that accepts a dictionary of
-# clothing items and their prices, and returns true if anyting on the 
+# clothing items and their prices, and returns True if anything on the 
 # list is over $300.
+
 
 def expensive_items(clothing):
   return False
