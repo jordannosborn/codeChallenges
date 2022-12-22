@@ -10,7 +10,6 @@
 # Hint: This link might help you:
 # https://medium.com/an-amygdala/how-to-iterate-through-a-2d-list-in-python-5a90693f3a15
 
-
 def count_families_with_kevin(families):
   total = 0
   for family in families:
