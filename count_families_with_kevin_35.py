@@ -13,6 +13,7 @@
 def count_families_with_kevin(families):
   total = 0
   for family in families:
+    for name in family:
       if name == "Kevin":
         total += 1
   return total
