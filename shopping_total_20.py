@@ -2,10 +2,12 @@
 # Create a function called shopping_total that accepts a dictionary of 
 # groceries and their prices, and returns the total cost of all items.
 # Note that total should be rounded to the nearest two decimal points. 
-# For example, of the total is 59.9345 it should be conversted to 59.93.
+# For example, of the total is 59.9345 it should be converted to 59.93.
 
 def shopping_total(groceries):
-  return 0
+  total = sum(groceries.values())
+  round_total = round(total, 2)
+  return round_total
 
 
 # Tests:

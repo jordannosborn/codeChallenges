@@ -5,6 +5,10 @@
 
 
 def expensive_items(clothing):
+  for x in clothing.values():
+    if x > 300:
+      return True
+
   return False
 
 

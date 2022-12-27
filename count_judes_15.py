@@ -7,7 +7,12 @@
 # Judes in all families.
 
 def count_judes(families):
-  return 0
+  total = 0
+  for family in families:
+    for name in family:
+      if name == "Jude":
+        total += 1
+  return total
 
 # Tests:
 assert count_judes(

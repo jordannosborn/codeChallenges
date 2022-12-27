@@ -8,6 +8,10 @@
 
 
 def has_kitty_in_challenge(challenges):
+  for x in challenges:
+    split = x.split("_")
+    if "kitty" in split:
+      return True
   return False
 
 # Tests:
