@@ -14,7 +14,7 @@ def add_osborn(name):
 
 
 def print_name(name):
-  print(name)
+  print(add_osborn(name))
 
 
 # Tests:
