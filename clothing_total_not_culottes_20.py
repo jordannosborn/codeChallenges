@@ -8,7 +8,11 @@
 
 
 def clothing_total_not_culottes(clothing):
-  return 0
+  total = 0
+  for key, value in clothing.items():
+    if key != "culottes":
+      total += value
+  return total
 
 
 # Tests:

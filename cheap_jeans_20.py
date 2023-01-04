@@ -8,6 +8,9 @@
 
 
 def cheap_jeans(clothing):
+  for key, value in clothing.items():
+    if key == "jeans" and value <= 30:
+        return True
   return False
 
 
