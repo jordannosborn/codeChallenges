@@ -9,11 +9,12 @@
 
 
 def add_osborn(name):
-  return ''
+  name += " Osborn"
+  return name
 
 
 def print_name(name):
-  print('')
+  print(name)
 
 
 # Tests:

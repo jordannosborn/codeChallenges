@@ -5,7 +5,9 @@
 
 
 def print_array_with_osborn(the_array):
-  print('')
+  for x in the_array:
+    x += " Osborn"
+    print(x)
 
 
 # Assuming an array like this:
