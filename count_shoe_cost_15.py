@@ -6,7 +6,11 @@
 
 
 def count_shoe_cost(clothing):
-  return 0
+  total = 0
+  for key, value in clothing.items():
+    if "shoe" in key:
+      total += value
+  return total
 
 
 # Tests:

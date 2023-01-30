@@ -9,7 +9,14 @@
 
 
 def print_how_old(ages):
-  print('')
+  for age in ages:
+    if age < 40:
+      print(str(age) + " is young")
+    elif age > 40 and age < 70:
+      print(str(age) + " is old")
+    elif age > 70:
+      print(str(age) + " is ancient")
+
 
 # Test:
 

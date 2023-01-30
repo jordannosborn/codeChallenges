@@ -8,7 +8,12 @@
 
 
 def print_clothing_items_and_total(clothing):
-  print(0)
+  total = 0
+  for key, value in clothing.items():
+    print(key)
+    total += value
+  print(total)
+
 
 
 # Test:

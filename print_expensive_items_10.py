@@ -5,7 +5,9 @@
 
 
 def print_expensive_items(clothing):
-  print('')
+  for key, value in clothing.items():
+    if value > 100:
+      print(key)
 
 
 # Test:
