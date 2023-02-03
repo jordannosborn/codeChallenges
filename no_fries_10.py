@@ -4,10 +4,13 @@
 
 
 def no_fries(meal):
-  return False
+  for food in meal:
+    if "fries" in food:
+      return False
+  return True
 
 
 # Tests:
-assert no_fries(['chicken burger', 'french fries', 'chicken fingers']) == True
-assert no_fries(['portuguese chicken', 'pita bread', 'greek salad']) == False
-assert no_fries(['spheghetti sauce', 'pasta', 'raw carrots']) == False
+assert no_fries(['chicken burger', 'french fries', 'chicken fingers']) == False
+assert no_fries(['portuguese chicken', 'pita bread', 'greek salad']) == True
+assert no_fries(['spheghetti sauce', 'pasta', 'raw carrots']) == True

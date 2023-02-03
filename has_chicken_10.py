@@ -5,7 +5,11 @@
 
 
 def has_chicken(meal):
-  return False
+  for food in meal:
+    if "chicken" in food:
+      return True
+    else:
+      return False
 
 
 # Tests:

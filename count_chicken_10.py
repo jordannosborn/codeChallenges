@@ -5,7 +5,11 @@
 
 
 def count_chicken(meal):
-  return 0
+  total = 0
+  for food in meal:
+    if "chicken" in food:
+      total += 1
+  return total
 
 
 # Tests:
