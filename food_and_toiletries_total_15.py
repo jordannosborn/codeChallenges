@@ -8,7 +8,15 @@
 
 
 def food_and_toiletries_total(food, toiletries):
-  return 0
+  total = 0
+  food_total = 0
+  toiletries_total = 0
+  for key, value in food.items():
+    food_total += value
+  for key, value in toiletries.items():
+    toiletries_total += value
+  total = toiletries_total + food_total
+  return total
 
 
 # Tests:

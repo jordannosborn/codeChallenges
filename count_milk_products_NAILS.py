@@ -8,7 +8,17 @@
 
 
 def the_price_of_milk(food, toiletries):
-    return 0
+    food_total = 0
+    toiletries_total = 0
+    total = 0
+    for key, value in food.items():
+        if "milk" in key:
+            food_total += value
+    for key, value in toiletries.items():
+        if "milk" in key:
+            toiletries_total += value
+    total = toiletries_total + food_total
+    return total
 
 
 # Tests:
